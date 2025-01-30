@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness is Important for Everyone</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .quote {
+            text-align: center;
+            font-size: 20px;
+            font-style: italic;
+            color: #555;
+            margin: 20px 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(50px);
+            animation: slideIn 1s ease-in-out forwards;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .image {
+            width: 100%;
+            height: 300px;
+            background: url('https://source.unsplash.com/1600x900/?fitness,exercise') no-repeat center center/cover;
+            border-radius: 10px;
+            animation: zoomIn 1.5s ease-in-out;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: #fff;
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Fitness is Important for Everyone
+    </header>
+    <div class="quote">"Take care of your body. It's the only place you have to live." - Jim Rohn</div>
+    <div class="container">
+        <div class="image"></div>
+        <div class="section" style="animation-delay: 0.2s;">
+            <h2>Why Fitness Matters</h2>
+            <p>Fitness is essential for a healthy and happy life. Regular exercise helps improve mental health, boosts immunity, and enhances overall well-being.</p>
+        </div>
+        <div class="section" style="animation-delay: 0.4s;">
+            <h2>Benefits of Staying Fit</h2>
+            <ul>
+                <li>Improves cardiovascular health</li>
+                <li>Enhances mood and reduces stress</li>
+                <li>Boosts energy levels</li>
+                <li>Strengthens muscles and bones</li>
+                <li>Promotes better sleep</li>
+            </ul>
+        </div>
+        <div class="section" style="animation-delay: 0.6s;">
+            <h2>How to Stay Fit</h2>
+            <p>Incorporate physical activities like walking, jogging, yoga, or weight training into your daily routine. Eat a balanced diet and stay hydrated.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Fitness Guide. Stay Healthy, Stay Fit!
+    </footer>
+</body>
+</html>
