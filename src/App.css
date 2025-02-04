@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7e8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #557174;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #557174;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #c7cfb7;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.radio-group label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #557174;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9dad7f;
+}
+
+/* Styles for success message */
+.success-message {
+  text-align: center;
+  color: #557174;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Link to fill the form again */
+.success-message a {
+  color: #557174;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+
+.success-message a:hover {
+  color: #9dad7f;
+}
